@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /*background-color: #000;*/
+    z-index: 10;
+    background:radial-gradient(
+        rgba(110, 110, 110, 0.3),
+        rgba(0, 0, 0, 0.8)
+    );
+}
+.wrap{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 20;
+}
+.logo{
+    height: 230px;
+    text-align: center;
+}
+.subcopy{
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+}
+.bt00{
+    padding-top: 300px;
+    text-align: center;
+}
+.bt01{
+    width: 200px;
+    height: 50px;
+}
+/*카트 메인*/
+
+/*카트 서브*/
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.bt{
+    width: 100%;
+    height: 884px;
+    background: linear-gradient(#A6EDFF, #FFFFFF);
+}
+.kt1{
+    width: 100%;
+    height: 215px;
+}
+.logo{
+    width: 100%;
+    height: 179px;
+    
+}
+
+.t1{
+    width: 100%;
+    height: 159px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 43px;
+    font-family: 'yg-jalnan';
+}
+.kt2{
+    width: 100%;
+    height: 331px;
+}
+
+.cha01{
+    width: 100%;
+    height: 507px;
+    background-color: #9AEAFE;
+}
+.name{
+    font-size: 34px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 휴먼둥근헤드라인;
+}
+.cha00{
+    padding-left: 90px;
+}
+.box01{
+    width: 413px;
+    height: 112px;
+    border: 1px solid;
+    margin: 0 auto;
+    display: flex;
+}
+.box01 > img{
+    width: 90px;
+    height: 90px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.ct1{
+    font-size: 13px;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.cha02{
+    width: 100%;
+    height: 507px;
+    background-color: #F8817C;
+}
+.ct2{
+    font-size: 10px;
+    line-height: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.cha03{
+    width: 100%;
+    height: 507px;
+    background-color: #FFF180;
+}
+.ct3{
+    font-size: 12px;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.kt01{
+    width: 100%;
+    height: 343px;
+    background-color: #ABFF97;
+}
+.k00{
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.box02{
+    width: 413px;
+    height: 36px;
+    background-color: #A1A1A1;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 10px;
+    color: white;
+}
+.kt02{
+    width: 100%;
+    height: 343px;
+    background-color: #A76BFF;
+}
+.box03{
+    width: 413px;
+    height: 36px;
+    background-color: #55ED5F;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 10px;
+    color: white;
+}
+.kt03{
+    width: 100%;
+    height: 343px;
+    background-color: #7B7B7B;
+}
+.box04{
+    width: 413px;
+    height: 36px;
+    background-color: #2C48FC;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 10px;
+    color: white;
+}
+.kt04{
+    width: 100%;
+    height: 343px;
+    background-color: #7AB0F4;
+}
+.box05{
+    width: 413px;
+    height: 36px;
+    background-color: #D036E8;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 10px;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 99px;
+    background-color: #868686;
+}
+.ftimg{
+    width: 268px;
+    height: 34px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.footer li{
+    font-size: 9px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
